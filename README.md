@@ -1,4 +1,4 @@
-Esse projeto ilustra o uso do padrão Factory Method.
+Esse projeto ilustra o uso do padrão API Composer via HateOAS.
 
 É criada uma API REST para exemplificar.
 
@@ -15,18 +15,8 @@ a) Linux ou Mac
 b) Windows
 > mvnw.cmd spring-boot:run
 
-2.2) Executar em Docker
+### Github Actions
 
-a) Criar a imagem: 
-> docker build -t pagamentoimg .
-
-b) Rodar aplicação em conteiner: 
-> docker run --name pagamento -p 8080:8080 -d pagamentoimg
-
-3) Exemplo de chamada no navegador:
-> http://localhost:8080/pagamento?tipo_pagamento=DINHEIRO&valor_pagamento=500
-> http://localhost:8080/pagamento?tipo_pagamento=CHEQUE&valor_pagamento=500
-> http://localhost:8080/pagamento?tipo_pagamento=DINHEIRO&valor_pagamento=500
     
 ### References
 
